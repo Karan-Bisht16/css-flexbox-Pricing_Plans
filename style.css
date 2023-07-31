@@ -1,0 +1,119 @@
+body{
+  background-color: #232020;
+  margin: 0;
+  min-height: 100vh;
+}
+h1{
+  color:#FFE8D6;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  margin: 45px 0 0 0;
+}
+.pricing-container{
+  display:flex;
+  flex-flow: row wrap;
+  gap:40px; 
+  align-items: center;
+  justify-content: center;
+  height: 720px;
+}
+@media (max-width: 1250px) {
+  h1{
+    font-size: 40px;
+    margin: 45px 0;
+  }
+  .pricing-container{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+    height: 1600px;
+    justify-content: space-evenly;
+  }
+  div.pricing-plan{
+    min-width: 400px;
+    min-height: 400px;
+  }
+  .reference a{
+    font-size:14px;
+  }
+}
+.pricing-plan{
+  background-color: #FFE8D6 !important;
+  text-align: center;
+  border-radius: 10% 10% 10% 10%;
+  border: 4px #FF971D solid;
+  min-width: 270px;
+  min-height: 300px; 
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.plan-title{
+  text-transform: uppercase;
+  color: #fff3b7;
+  background-color: #FF971D;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  height:120px;
+  border-radius: 25px 25px 0% 0%;;
+}
+.plan-features{
+  text-align: left;
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+.plan-features > li{
+  padding-bottom: 10px;
+}
+.plan-price{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+.plan-price > span{
+  font-size: 20px;
+}
+.plan-button{
+  height: 40px;
+  width: 100px;
+  font-size: 18px;;
+  background-color: #FF971D;
+  border-radius: 12%;
+  color: white;
+  margin: 10px 0 30px 0;
+  font-weight: bold;
+}
+.plan-title > img{
+  height: 50px;
+  width: 50px;
+  margin: 5px 0px;
+}
+img.standard{
+  width:60px;
+  height: 60px;
+}
+img.premium{
+  position: relative;
+  top: -8.5px;
+  width:60px;
+  height: 60px;
+}
+footer{
+  color: #FFE8D6 !important;
+  background-color: #3A3535;
+  font-family: 'Sono', sans-serif;
+}
+.contact{
+  font-size: 25px;
+  padding-top: 10px;
+  border-top: 2px #FFE8D6 solid;
+  margin: 0;
+}
+.reference a{
+  color: #FFE8D6;
+  text-decoration:none;
+}
+.reference span{
+  font-size: 30px;
+}
